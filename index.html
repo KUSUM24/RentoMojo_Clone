@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ridobiko</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <script
+      src="https://kit.fontawesome.com/yourcode.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+    />
+  </head>
+  <body>
+    <div>
+      <div class="navbar-main">
+        <div class="container d-flex align-items-center">
+          <img src="./images/ridobiko.png" style="width: 250px; height: 50px" />
+          <div class="country d-flex align-items-center mx-4">
+            <div>Delhi</div>
+            <i class="material-icons" style="color: gray">expand_more</i>
+          </div>
+          <div class="search-field input-group">
+            <input
+              type="text"
+              class="form-control search-input"
+              placeholder="Search for products"
+            />
+            <div class="search-icon input-group-append">
+              <span class="input-group-text" id="basic-addon2"
+                ><i class="material-icons">search</i></span
+              >
+            </div>
+          </div>
+          <div class="cart d-flex align-items-center">
+            <span class="cart-icon material-icons-outlined">
+              shopping_cart
+            </span>
+            Cart
+          </div>
+
+          <div class="dropdown mx-4">
+            <div
+              class="account d-flex align-items-center"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              <div class="initial">R</div>
+              <div>&nbsp;</div>
+              <div class="acc-text">Ridobiko</div>
+              <div>...</div>
+            </div>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item d-flex align-items-center" href="#"
+                ><span class="material-icons-outlined"> clear_all </span>
+                <div>My Account</div></a
+              >
+              <a class="dropdown-item d-flex align-items-center" href="#"
+                ><span class="material-icons"> favorite_border </span>
+                <div>My Wishlist</div></a
+              >
+              <a class="dropdown-item d-flex align-items-center" href="#"
+                ><span class="material-icons">settings</span>
+                <div>Settings</div></a
+              >
+              <a class="dropdown-item d-flex align-items-center" href="#"
+                ><span class="material-icons-outlined">
+                  power_settings_new
+                </span>
+                <div>Logout</div></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex">
+        <div style="width: 80%">
+          <img width="100%" src="./images/displayImg.jpg" alt="" />
+          <!-- <div></div> -->
+        </div>
+        <div class="" style="background-color: #f6f7fb; width: 30%">
+          <div style="background-color: white" class="p-3">
+            <div class="h5">Ultima Appliances Combo</div>
+            <div style="color: #69cabf">3 Products</div>
+          </div>
+          <div class="d-flex justify-content-around my-2 align-items-center">
+            <div style="font-size: 90%">
+              How long do you want to rent this for? (Months)
+            </div>
+            <div>
+              <span
+                class="material-icons-outlined mt-1"
+                style="color: #69cabf; font-size: 100%"
+              >
+                info
+              </span>
+            </div>
+          </div>
+          <div class="px-2" style="background-color: white">
+            <div class="px-2 py-4">
+              <div>
+                <input class="slider" type="range" min="0" max="2" />
+              </div>
+              <div
+                class="d-flex justify-content-between mx-1"
+                style="color: grey; font-size: 90%"
+              >
+                <div>|</div>
+                <div>|</div>
+                <div>|</div>
+              </div>
+              <div class="d-flex justify-content-between">
+                <div>3+</div>
+                <div>6+</div>
+                <div>12+</div>
+              </div>
+            </div>
+            <div
+              class="mx-3"
+              style="border: 1px solid rgb(206, 206, 206); border-radius: 5px"
+            >
+              <div
+                class="d-flex justify-content-between"
+                style="border-bottom: 2px solid rgb(206, 206, 206)"
+              >
+                <div
+                  class="
+                    d-flex
+                    flex-column
+                    pl-4
+                    py-3
+                    w-50
+                    justify-content-center
+                  "
+                >
+                  <div class="d-flex align-items-center">
+                    <div class="h6 m-0" style="font-size: 130%">
+                      <span style="font-size: 60%">₹</span> 1433
+                    </div>
+                    <span style="font-size: 100%" class="ml-1"> / mo </span>
+                    <s class="ml-2 mt-1" style="font-size: 70%"> ₹ 1477 </s>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <div style="color: #999999; font-size: 80%">
+                      Monthly Rent
+                    </div>
+                    <div class="ml-1">
+                      <span
+                        class="material-icons-outlined"
+                        style="color: #69cabf; font-size: 80%"
+                      >
+                        info
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="
+                    d-flex
+                    flex-column
+                    pl-4
+                    py-3
+                    w-50
+                    justify-content-center
+                  "
+                  style="border-left: 2px solid rgb(206, 206, 206)"
+                >
+                  <div>
+                    <div class="h6 m-0" style="font-size: 130%">
+                      <span style="font-size: 60%">₹</span> 2987
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <div style="color: #999999; font-size: 80%">
+                      Refundable Deposit
+                    </div>
+                    <div class="ml-1">
+                      <span
+                        class="material-icons-outlined"
+                        style="color: #69cabf; font-size: 80%"
+                      >
+                        info
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-center">
+                <div class="d-flex m-2 px-2 align-items-center">
+                  <div>
+                    <span
+                      class="material-icons"
+                      style="font-size: 60%; color: #616161"
+                    >
+                      check_circle
+                    </span>
+                  </div>
+                  <div style="font-size: 70%">7 Days free trial</div>
+                </div>
+                <div class="d-flex m-2 align-items-center">
+                  <div>
+                    <span
+                      class="material-icons"
+                      style="font-size: 60%; color: #616161"
+                    >
+                      check_circle
+                    </span>
+                  </div>
+                  <div style="font-size: 70%">Free relocation</div>
+                </div>
+                <div class="d-flex m-2 align-items-center">
+                  <div>
+                    <span
+                      class="material-icons"
+                      style="font-size: 60%; color: #616161"
+                    >
+                      check_circle
+                    </span>
+                  </div>
+                  <div style="font-size: 70%">Free upgrades</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="my-3" style="background-color: white">
+            <div
+              class="
+                d-flex
+                justify-content-between
+                mx-3
+                align-items-center
+                py-3
+              "
+            >
+              <div class="d-flex align-items-center">
+                <span
+                  class="material-icons-outlined"
+                  style="font-size: 120%; color: gray"
+                >
+                  local_shipping
+                </span>
+                <div class="mx-3" style="font-size: 80%">
+                  Delivery by 11th jul 2021
+                </div>
+              </div>
+              <span class="material-icons" style="font-size: 90%"> info </span>
+            </div>
+            <div class="mx-3">
+              <button
+                class="btn btn-primary w-100"
+                style="background-color: #dc3225; padding: 2.8% 0%"
+              >
+                Book your plan
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"
+  ></script>
+</html>

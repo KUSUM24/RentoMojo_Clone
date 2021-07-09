@@ -1,6 +1,7 @@
 .navbar-main {
-  box-shadow: 5px 5px 10px rgb(214, 212, 212);
+  /* box-shadow: 1px 1px 10px rgb(214, 212, 212); */
   padding: 0.5% 0%;
+  border-bottom: 1px ridge rgb(214, 212, 212);
 }
 .country {
   cursor: pointer;
@@ -72,4 +73,63 @@
 }
 .dropdown-menu a span {
   margin: 0% 4%;
+}
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 8px;
+  border-radius: 8px;
+  background: #cbcbcb;
+  outline: none;
+  opacity: 1;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+  cursor: pointer;
+}
+
+/* .slider:hover {
+  opacity: 1;
+} */
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border: 3px solid #e16161;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border: 3px solid #e16161;
+  border-radius: 50%;
+  cursor: pointer;
+}
+/* .slider::-webkit-slider-runnable-track {
+  height: 10px;
+  -webkit-appearance: none;
+  color: #13bba4;
+  margin-top: -1px;
+} */
+input[type="range"]::-moz-range-progress {
+  background-color: #43e5f7;
+}
+input[type="range"]::-moz-range-track {
+  background-color: #9a905d;
+}
+/* IE*/
+input[type="range"]::-ms-fill-lower {
+  background-color: #43e5f7;
+}
+input[type="range"]::-ms-fill-upper {
+  background-color: #9a905d;
 }

@@ -73,8 +73,18 @@ input[type="range"]::-moz-range-track {
   right: 30%;
   padding: 0.5%;
   z-index: 1;
+  cursor: pointer;
 }
 .heart-circle:hover {
   color: white;
   background-color: red;
+}
+.view-images {
+  background: rgba(2, 2, 2, 0.42);
+  border-radius: 2px;
+  position: absolute;
+  right: 30%;
+  bottom: 15%;
+  color: white;
+  padding: 0.5%;
 }

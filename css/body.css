@@ -88,3 +88,6 @@ input[type="range"]::-moz-range-track {
   color: white;
   padding: 0.5%;
 }
+.slider-main {
+  background-color: white;
+}
